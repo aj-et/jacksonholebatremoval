@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "jackson-hole",
+    "name": "Jackson Hole",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Safe, humane bat removal services in Jackson Hole, Wyoming. Our certified experts provide inspections, exclusions, and guano cleanup."
+  },
+  {
+    "slug": "jackson",
+    "name": "Jackson",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Trusted bat removal and exclusion services for residents of Jackson, Wyoming. We provide humane bat control, inspections, and guano cleanup."
+  },
+  {
+    "slug": "kelly",
+    "name": "Kelly",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Safe, humane bat removal services in Kelly, Wyoming. Our certified specialists provide inspections, exclusions, and cleanup."
+  },
+  {
+    "slug": "moose",
+    "name": "Moose",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Professional bat removal services in Moose, Wyoming. We specialize in humane exclusion and attic restoration."
+  },
+  {
+    "slug": "moran",
+    "name": "Moran",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Effective bat removal and guano cleanup services in Moran, Wyoming. Our experts ensure your home stays bat-free."
+  },
+  {
+    "slug": "wilson",
+    "name": "Wilson",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Wilson, Wyoming bat removal specialists. We provide humane bat control, guano cleanup, and long-term prevention."
+  },
+  {
+    "slug": "teton-village",
+    "name": "Teton Village",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Safe and effective bat removal services in Teton Village, Wyoming. Our team provides inspections, exclusions, and attic restoration."
+  }
+]
