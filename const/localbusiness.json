@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Jackson Hole Bat Removal",
+  "image": "https://yourdomain.com/logo.png",
+  "url": "https://www.jacksonholebatremoval.com/",
+  "telephone": "(801) 675-8829",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jackson Hole",
+    "addressRegion": "Wyoming",
+    "addressCountry": "US"
+  },
+  "priceRange": "$$",
+  "description": "Safe, humane bat removal services in Wyoming.",
+  "areaServed": [
+    { "@type": "Place", "name": "Jackson Hole" },
+    { "@type": "Place", "name": "Jackson" },
+    { "@type": "Place", "name": "Kelly" },
+    { "@type": "Place", "name": "Moose" },
+    { "@type": "Place", "name": "Moran" },
+    { "@type": "Place", "name": "Wilson" },
+    { "@type": "Place", "name": "Teton Village" }
+  ]
+}
