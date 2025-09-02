@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import cities from "../const/cities.json"
-import { Hero, Services, FAQ, CTA, Footer } from "../components/subpages"
+import { Hero, Services, FAQ, CTA } from "../components/subpages"
 
 export default function Home() {
   // Use Jackson Hole as the "main city" for homepage
@@ -45,9 +45,6 @@ export default function Home() {
 
       {/* CTA */}
       <CTA city={mainCity} />
-
-      {/* Footer */}
-      <Footer city={mainCity} />
     </main>
   )
 }

@@ -1,8 +1,10 @@
 import type { Metadata } from "next"
 import "./globals.css"
+import Navbar from "@/components/Navbar"
+import { Footer } from "@/components/subpages"
 
 export const metadata: Metadata = {
-  title: "Professional Bat Removal Services | Utah Wildlife Specialists",
+  title: "Professional Bat Removal Services | Jackson Hole Bat Removal",
   description:
     "Safe, humane, and effective bat removal services. Get expert bat exclusion, guano cleanup, and prevention to protect your home.",
 }
@@ -14,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans bg-gray-50 text-gray-900">{children}</body>
+      <body className="font-sans bg-gray-50 text-gray-900">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

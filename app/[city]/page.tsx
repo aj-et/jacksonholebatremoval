@@ -1,5 +1,5 @@
 import cities from "@/const/cities.json";
-import { Hero, Services, FAQ, CTA, Footer } from "@/components/subpages";
+import { Hero, Services, FAQ, CTA } from "@/components/subpages";
 import { notFound } from "next/navigation";
 
 interface Params {
@@ -20,7 +20,6 @@ export default async function City({ params }: Params) {
       <Services city={cityData} />
       <FAQ city={cityData} />
       <CTA city={cityData} />
-      <Footer city={cityData} />
     </main>
   )
 }
