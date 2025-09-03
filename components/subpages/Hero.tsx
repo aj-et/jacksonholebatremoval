@@ -10,12 +10,15 @@ type City = {
 export default function Hero({ city }: { city: City }) {
   return (
     <section className="relative h-[70vh] flex items-center justify-center text-white">
-      {/* <img
-        src="/jackson-hole-mountains.jpg"
-        alt={`Scenic view of ${city.name}, ${city.state}`}
+      <Image 
+        src="/images/Jackson_hole.webp" 
+        alt={`Scenic view of ${city.name}, ${city.state}`} 
+        fill 
+        priority
+        sizes='(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw' 
         className="absolute inset-0 w-full h-full object-cover"
-      /> */}
-      <Image src="/images/Jackson_hole.webp" alt={`Scenic view of ${city.name}, ${city.state}`} fill priority className="absolute inset-0 w-full h-full object-cover"></Image>
+      />
+
       <div className="absolute inset-0 bg-black/50"></div>
 
       <div className="relative z-10 text-center max-w-2xl">

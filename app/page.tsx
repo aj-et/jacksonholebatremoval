@@ -1,7 +1,31 @@
 import Link from "next/link"
-import Image from "next/image"
+// import Image from "next/image"
 import cities from "../const/cities.json"
 import { Hero, Services, FAQ, CTA } from "../components/subpages"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Jackson Hole Bat Removal | Professional Bat Control Services",
+  description:
+    "Safe, humane, and effective bat removal services in Jackson Hole, Wyoming. We specialize in bat exclusion, guano cleanup, and long-term prevention.",
+  keywords: [
+    "bat removal Jackson Hole",
+    "bat exclusion",
+    "guano cleanup",
+    "Wyoming wildlife control",
+    "bat control services",
+  ],
+  openGraph: {
+    title: "Jackson Hole Bat Removal | Professional Bat Control Services",
+    description:
+      "Trusted bat removal and exclusion services in Jackson Hole, Wyoming. Call our experts today.",
+    url: "https://www.jacksonholebatremoval.com",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://www.jacksonholebatremoval.com",
+  },
+}
 
 export default function Home() {
   // Use Jackson Hole as the "main city" for homepage
