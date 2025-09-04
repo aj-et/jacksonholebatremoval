@@ -129,15 +129,15 @@ export default function Home() {
                   </h3>
                   
                   {/* Description */}
-                  <p className="relative z-10 text-slate-600 group-hover:text-slate-700 leading-relaxed transition-colors duration-300 mb-4">
+                  {/* <p className="relative z-10 text-slate-600 group-hover:text-slate-700 leading-relaxed transition-colors duration-300 mb-4">
                     Professional bat removal & exclusion services
-                  </p>
+                  </p> */}
                   
                   {/* Service indicator */}
-                  <div className="relative z-10 flex items-center space-x-2 text-sm">
+                  {/* <div className="relative z-10 flex items-center space-x-2 text-sm">
                     <div className="w-2 h-2 bg-green-400 rounded-full group-hover:bg-amber-400 transition-colors duration-300" />
                     <span className="text-slate-500 group-hover:text-slate-600 font-medium">Available 24/7</span>
-                  </div>
+                  </div> */}
                   
                   {/* Hover arrow */}
                   <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

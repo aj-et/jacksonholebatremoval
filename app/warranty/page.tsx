@@ -97,8 +97,8 @@ export default function WarrantyPage() {
             {[
               {
                 icon: "🛡️",
-                title: "5-Year Coverage",
-                description: "Complete protection for 5 full years from service completion date",
+                title: "2-Year Coverage",
+                description: "Complete protection for 2 full years from service completion date",
                 highlight: "Industry Leading"
               },
               {
@@ -111,7 +111,7 @@ export default function WarrantyPage() {
                 icon: "⚡",
                 title: "Rapid Response",
                 description: "Priority scheduling for all warranty-related service calls",
-                highlight: "24/7 Available"
+                highlight: "Fast & Reliable"
               },
               {
                 icon: "📋",
@@ -169,7 +169,7 @@ export default function WarrantyPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-2">15+ Years Experience</h3>
-                    <p className="text-slate-600">Decades of proven bat exclusion expertise in Jackson Hole</p>
+                    <p className="text-slate-600">Decades of proven bat exclusion expertise</p>
                   </div>
                 </div>
                 
@@ -231,7 +231,7 @@ export default function WarrantyPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-800 mb-2">Customer Satisfaction</h3>
-                    <p className="text-slate-600">Hundreds of satisfied customers throughout the Jackson Hole valley</p>
+                    <p className="text-slate-600">Hundreds of satisfied customers</p>
                   </div>
                 </div>
               </div>

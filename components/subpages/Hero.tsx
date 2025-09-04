@@ -73,8 +73,7 @@ export default function Hero({ city }: { city: City }) {
           {/* Trust indicators */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-8 pt-8">
             {[
-              { icon: "⚡", text: "24/7 Emergency Service" },
-              { icon: "🛡️", text: "5-Year Warranty" },
+              { icon: "🛡️", text: "2-Year Warranty" },
               { icon: "⭐", text: "Same-Day Response" }
             ].map((item, index) => (
               <div key={index} className="flex items-center space-x-2 text-white/90">

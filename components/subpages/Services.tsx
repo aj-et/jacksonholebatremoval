@@ -127,7 +127,7 @@ export default function Services({ city }: { city: City }) {
         </div>
         
         {/* Additional service info */}
-        <div className="mt-16 grid md:grid-cols-2 gap-8">
+        {/* <div className="mt-16 grid md:grid-cols-2 gap-8">
           <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-2xl p-8 border border-amber-200">
             <div className="flex items-start space-x-4">
               <div className="bg-amber-400 rounded-xl p-3">
@@ -155,7 +155,7 @@ export default function Services({ city }: { city: City }) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

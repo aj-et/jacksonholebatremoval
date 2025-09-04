@@ -69,9 +69,8 @@ export default function CTA({ city }: { city: City }) {
           </div>
           
           <div className="pt-6 space-y-2">
-            <p className="text-white/90 font-medium">✓ 24/7 Emergency Service</p>
             <p className="text-white/90 font-medium">✓ Licensed & Insured</p>
-            <p className="text-white/90 font-medium">✓ 5-Year Warranty</p>
+            <p className="text-white/90 font-medium">✓ 2-Year Warranty</p>
           </div>
         </div>
       </div>
