@@ -33,9 +33,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans bg-gray-50 text-gray-900">
+      <body className="font-sans bg-gray-50 text-gray-900 min-h-screen flex flex-col">
         <Navbar />
-        {children}
+
+        <div className="flex-grow">
+          {children}
+        </div>
+
         <Footer />
       </body>
     </html>
