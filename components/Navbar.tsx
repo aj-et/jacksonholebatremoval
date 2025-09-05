@@ -85,29 +85,45 @@ export default function Navbar() {
           </div>
           
           {/* Logo + Brand */}
-          <Link href="/" className="group flex items-center space-x-3 relative z-10">
+          <Link href="/" className="group flex items-center space-x-4 relative z-10">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-xl blur-md opacity-0 group-hover:opacity-30 transition-opacity duration-300" />
-              <div className="relative bg-white/10 backdrop-blur-sm rounded-xl p-2 group-hover:bg-white/20 transition-all duration-300 border border-white/20">
+              {/* Subtle glow effect on hover */}
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-400/30 to-yellow-500/30 rounded-2xl blur-lg opacity-0 group-hover:opacity-60 transition-opacity duration-500 scale-110" />
+              
+              {/* Logo container - removed border and background */}
+              {/* <div className="relative p-1 group-hover:scale-110 transition-all duration-300"> */}
+              <div className="relative p-1">
                 <Image 
                   src="/images/jacksonholebatremoval_logo.webp" 
                   alt="Jackson Hole Bat Removal logo" 
-                  width={40} 
-                  height={40} 
-                  className="h-10 w-10 object-contain group-hover:scale-110 transition-transform duration-300" 
+                  width={48} 
+                  height={48} 
+                  className={`h-12 w-12 object-contain transition-all duration-300 ${
+                    scrolled 
+                      ? "drop-shadow-md" 
+                      : "drop-shadow-[0_0_8px_rgba(251,191,36,0.4)]"
+                  }`}
                 />
+                
+                {/* Subtle highlight effect */}
+                <div className={`absolute inset-0 rounded-2xl transition-all duration-300 ${
+                  scrolled 
+                    ? "bg-gradient-to-br from-white/10 to-transparent" 
+                    : "bg-gradient-to-br from-white/5 to-transparent"
+                } opacity-0 group-hover:opacity-100`} />
               </div>
             </div>
+            
             <div className="flex flex-col">
               <span className={`text-xl md:text-2xl font-bold whitespace-nowrap transition-colors duration-300 ${
                 scrolled 
                   ? "text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-600" 
-                  : "text-amber-400"
+                  : "text-amber-400 drop-shadow-sm"
               }`}>
                 Jackson Hole Bat Removal
               </span>
-              <span className={`text-xs font-medium ${
-                scrolled ? "text-slate-600" : "text-white/70"
+              <span className={`text-xs font-medium transition-colors duration-300 ${
+                scrolled ? "text-slate-600" : "text-white/80"
               }`}>
                 Professional Wildlife Control
               </span>

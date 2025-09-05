@@ -76,7 +76,7 @@ export default function WarrantyPage() {
                 <p className="text-xl md:text-2xl text-slate-700 leading-relaxed mb-8">
                   We stand behind our work with a{" "}
                   <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-yellow-600">
-                    comprehensive warranty
+                    2-year comprehensive warranty
                   </span>. 
                   If bats return within the warranty period, we will fix it free of charge - no questions asked.
                 </p>
@@ -84,7 +84,7 @@ export default function WarrantyPage() {
                 <div className="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-6 border border-amber-200">
                   <p className="text-lg text-slate-700 font-medium">
                     Our warranty gives you complete peace of mind knowing your property is protected 
-                    long after the exclusion work is done. Your investment is secure with our promise 
+                    for two full years after the exclusion work is done. Your investment is secure with our promise 
                     of lasting results.
                   </p>
                 </div>
@@ -99,19 +99,13 @@ export default function WarrantyPage() {
                 icon: "🛡️",
                 title: "2-Year Coverage",
                 description: "Complete protection for 2 full years from service completion date",
-                highlight: "Industry Leading"
+                highlight: "Comprehensive"
               },
               {
                 icon: "🔧",
                 title: "Free Repairs",
                 description: "Any warranty repairs completed at no additional cost to you",
                 highlight: "No Hidden Fees"
-              },
-              {
-                icon: "⚡",
-                title: "Rapid Response",
-                description: "Priority scheduling for all warranty-related service calls",
-                highlight: "Fast & Reliable"
               },
               {
                 icon: "📋",
@@ -123,13 +117,19 @@ export default function WarrantyPage() {
                 icon: "🏠",
                 title: "Property Protection",
                 description: "Full coverage for all exclusion points and entry areas treated",
-                highlight: "Comprehensive Coverage"
+                highlight: "Original Work Only"
               },
               {
                 icon: "👨‍🔧",
                 title: "Expert Service",
                 description: "Only certified technicians perform warranty inspections and repairs",
                 highlight: "Licensed & Insured"
+              },
+              {
+                icon: "⚠️",
+                title: "Structure Integrity",
+                description: "Warranty void if house structure changes (new soffit, fascia modifications)",
+                highlight: "Important Notice"
               }
             ].map((item, index) => (
               <div
@@ -143,7 +143,11 @@ export default function WarrantyPage() {
                   {item.icon}
                 </div>
                 <div className="mb-2">
-                  <span className="inline-block bg-gradient-to-r from-amber-400 to-yellow-400 text-white text-xs font-bold px-2 py-1 rounded-full mb-3">
+                  <span className={`inline-block text-white text-xs font-bold px-2 py-1 rounded-full mb-3 ${
+                    item.highlight === "Important Notice" 
+                      ? "bg-gradient-to-r from-red-400 to-red-500" 
+                      : "bg-gradient-to-r from-amber-400 to-yellow-400"
+                  }`}>
                     {item.highlight}
                   </span>
                 </div>
@@ -151,6 +155,131 @@ export default function WarrantyPage() {
                 <p className="text-slate-600 leading-relaxed">{item.description}</p>
               </div>
             ))}
+          </div>
+
+          {/* Before Requesting Warranty Service */}
+          <div className="mt-16 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 md:p-12 border border-blue-200">
+            <div className="text-center mb-10">
+              <div className="flex items-center justify-center mb-6">
+                <div className="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl p-4 shadow-lg">
+                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                </div>
+              </div>
+              
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+                Before Requesting Warranty Service
+              </h2>
+              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+                Please complete these verification steps to confirm bat activity before submitting a warranty claim
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/50 h-48 flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="bg-blue-100 rounded-full p-3 mt-1">
+                      <span className="text-2xl">👀</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-slate-800 mb-2">1. Visual Inspection</h3>
+                      <ul className="text-slate-600 space-y-1 text-sm">
+                        <li>• Look for bats entering/exiting at dusk</li>
+                        <li>• Check for new droppings or staining</li>
+                        <li>• Inspect previously sealed entry points</li>
+                        <li>• Document with photos if possible</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/50 h-48 flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="bg-blue-100 rounded-full p-3 mt-1">
+                      <span className="text-2xl">👂</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-slate-800 mb-2">2. Audio Verification</h3>
+                      <ul className="text-slate-600 space-y-1 text-sm">
+                        <li>• Listen for scratching or chattering sounds</li>
+                        <li>• Check attic, walls, and ceiling areas</li>
+                        <li>• Note times when sounds are heard</li>
+                        <li>• Record audio if possible</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/50 h-48 flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="bg-blue-100 rounded-full p-3 mt-1">
+                      <span className="text-2xl">📅</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-slate-800 mb-2">3. Monitor Activity</h3>
+                      <ul className="text-slate-600 space-y-1 text-sm">
+                        <li>• Observe for 3-5 consecutive days</li>
+                        <li>• Track patterns of activity</li>
+                        <li>• Note weather conditions during observations</li>
+                        <li>• Keep detailed log of findings</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/50 h-48 flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="bg-amber-100 rounded-full p-3 mt-1">
+                      <span className="text-2xl">⚠️</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-slate-800 mb-2">Rule Out Other Wildlife</h3>
+                      <ul className="text-slate-600 space-y-1 text-sm">
+                        <li>• Distinguish from birds, rodents, or insects</li>
+                        <li>• Confirm droppings are bat guano</li>
+                        <li>• Verify entry point size and location</li>
+                        <li>• Check for bat-specific signs</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-white/50 h-48 flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="bg-green-100 rounded-full p-3 mt-1">
+                      <span className="text-2xl">📝</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-slate-800 mb-2">Document Everything</h3>
+                      <ul className="text-slate-600 space-y-1 text-sm">
+                        <li>• Take clear photos of evidence</li>
+                        <li>• Note date, time, and location</li>
+                        <li>• Record weather conditions</li>
+                        <li>• Prepare written summary</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-red-50 border border-red-200 rounded-2xl p-6 h-48 flex flex-col">
+                  <div className="flex items-start space-x-4 flex-1">
+                    <div className="bg-red-100 rounded-full p-3 mt-1">
+                      <span className="text-2xl">🚫</span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-bold text-red-800 mb-2">Important Reminder</h3>
+                      <p className="text-red-700 text-sm">
+                        Warranty claims require verified bat activity. False alarms or non-bat wildlife issues are not covered under warranty terms.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Trust Indicators */}
@@ -240,25 +369,44 @@ export default function WarrantyPage() {
 
           {/* Warranty Process */}
           <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl">
-            <h2 className="text-3xl font-bold text-center mb-10">
-              Simple Warranty Process
+            <h2 className="text-3xl font-bold text-center mb-4">
+              Warranty Claim Process
             </h2>
+            <p className="text-center text-slate-300 mb-10 max-w-2xl mx-auto">
+              After completing the verification steps above, follow this simple process for warranty service
+            </p>
             
             <div className="grid md:grid-cols-4 gap-8">
               {[
-                { step: "1", title: "Call Us", desc: "Contact us if you notice any bat activity" },
-                { step: "2", title: "Inspection", desc: "Free warranty inspection within 48 hours" },
-                { step: "3", title: "Assessment", desc: "We evaluate the situation and determine next steps" },
-                { step: "4", title: "Resolution", desc: "Complete any necessary repairs at no charge" }
-              ].map((item) => (
+                { step: "1", title: "Contact Us", desc: "Call us with your verification documentation" },
+                { step: "2", title: "Inspection", desc: "Scheduled inspection within 48-72 hours" },
+                { step: "3", title: "Assessment", desc: "We evaluate the situation and determine coverage" },
+                { step: "4", title: "Resolution", desc: "Complete covered repairs at no charge" }
+              ].map((item, index) => (
                 <div key={item.step} className="text-center">
-                  <div className="bg-gradient-to-br from-amber-400 to-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white shadow-lg">
+                  <div key={index} className="bg-gradient-to-br from-amber-400 to-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white shadow-lg">
                     {item.step}
                   </div>
                   <h3 className="text-xl font-bold mb-3">{item.title}</h3>
                   <p className="text-slate-300">{item.desc}</p>
                 </div>
               ))}
+            </div>
+            
+            <div className="mt-10 p-6 bg-yellow-500/10 rounded-2xl border border-yellow-500/20">
+              <div className="flex items-start space-x-4">
+                <div className="bg-yellow-500/20 rounded-full p-2">
+                  <svg className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="font-bold text-yellow-400 mb-2">Important Note</h3>
+                  <p className="text-slate-300 text-sm">
+                    Emergency response is not available for warranty claims. Standard service scheduling applies during business hours.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -268,8 +416,8 @@ export default function WarrantyPage() {
               Ready for Guaranteed Results?
             </h2>
             <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
-              Don&apos;t let bats return to your property. Our industry-leading warranty 
-              ensures your investment is protected for years to come.
+              Don&apos;t let bats return to your property. Our 2-year warranty 
+              ensures your investment is protected with proper verification procedures.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
