@@ -9,21 +9,21 @@ export default function Services({ city }: { city: City }) {
   const services = [
     {
       title: "Bat Inspection",
-      text: `Thorough inspection of your property in ${city.name} to identify bat activity and entry points.`,
+      text: `Thorough inspection of your property in ${city.name}, ${city.state} to identify bat activity and entry points.`,
       img: "/images/bat-inspection.webp",
       icon: "🔍",
       features: ["Complete property assessment", "Entry point identification", "Species determination"]
     },
     {
       title: "Bat Exclusion", 
-      text: `Safe, humane removal and sealing to permanently keep bats out of your ${city.state} home.`,
+      text: `Safe, humane removal and sealing to permanently keep bats out of your ${city.name}, ${city.state} home.`,
       img: "/images/bat-exclusion.webp", 
       icon: "🏠",
       features: ["Humane bat removal", "Professional sealing", "Prevention barriers"]
     },
     {
       title: "Guano Cleanup",
-      text: `Professional sanitization of bat droppings and contaminated areas in ${city.name} properties.`,
+      text: `Professional sanitization of bat droppings and contaminated areas in your ${city.name}, ${city.state} properties.`,
       img: "/images/guano-cleanup.webp",
       icon: "🧽", 
       features: ["Complete sanitization", "Odor elimination", "Health-safe cleanup"]
