@@ -1,24 +1,24 @@
 import Link from "next/link"
-// import Image from "next/image"
 import cities from "../const/cities.json"
-import { Hero, Services, FAQ, CTA } from "../components/subpages"
+import { FAQ, CTA } from "../components/subpages"
+import { Home_Hero, Home_Services } from "@/components/subpages/Homepage"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Jackson Hole Bat Removal | Professional Bat Control Services",
+  title: "Wyoming Bat Removal | Professional Bat Control Services",
   description:
-    "Safe, humane, and effective bat removal services in Jackson Hole, Wyoming. We specialize in bat exclusion, guano cleanup, and long-term prevention.",
+    "Safe, humane, and effective bat removal services throughout Wyoming. We specialize in bat exclusion, guano cleanup, and long-term prevention.",
   keywords: [
-    "bat removal Jackson Hole",
+    "bat removal Wyoming",
     "bat exclusion",
     "guano cleanup",
     "Wyoming wildlife control",
     "bat control services",
   ],
   openGraph: {
-    title: "Jackson Hole Bat Removal | Professional Bat Control Services",
+    title: "Wyoming Bat Removal | Professional Bat Control Services",
     description:
-      "Trusted bat removal and exclusion services in Jackson Hole, Wyoming. Call our experts today.",
+      "Trusted bat removal and exclusion services throughout Wyoming. Call our experts today.",
     url: "https://www.jacksonholebatremoval.com",
     type: "website",
   },
@@ -28,8 +28,13 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  // Use Jackson Hole as the "main city" for homepage
-  const mainCity = cities.find((c) => c.slug === "jackson-hole")!
+  // Use generic data for FAQ and CTA components
+  const genericCityData = {
+    name: "Wyoming",
+    state: "",
+    phone: "(801) 675-8829",
+    description: "Safe, humane bat removal services throughout Wyoming. Our certified experts provide inspections, exclusions, and guano cleanup."
+  }
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
@@ -39,23 +44,23 @@ export default function Home() {
         <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-amber-100 to-yellow-100 rounded-full opacity-30 blur-3xl animate-pulse" />
         <div className="absolute top-40 right-20 w-24 h-24 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-full opacity-40 blur-2xl animate-pulse delay-300" />
         
-        <Hero city={mainCity} />
+        <Home_Hero />
       </div>
 
       {/* Services with enhanced spacing */}
       <div className="relative py-8">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-slate-50/50 to-transparent" />
-        <Services city={mainCity} />
+        <Home_Services />
       </div>
 
       {/* FAQ with subtle background */}
       <div className="relative py-8">
         <div className="absolute top-0 left-1/4 w-40 h-40 bg-gradient-to-br from-amber-50 to-yellow-50 rounded-full opacity-60 blur-3xl" />
         <div className="absolute bottom-0 right-1/3 w-32 h-32 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-full opacity-60 blur-3xl" />
-        <FAQ city={mainCity} />
+        <FAQ city={genericCityData} />
       </div>
 
-      {/* Enhanced Areas We Serve Section */}
+      {/* Areas We Serve Section - Keep this as is since it's the main differentiator */}
       <section className="py-20 px-6 relative overflow-hidden">
         {/* Background decorative elements */}
         <div className="absolute inset-0">
@@ -81,7 +86,7 @@ export default function Home() {
             </h2>
             
             <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-              Professional bat removal services throughout the greater Jackson Hole region
+              Professional bat removal services throughout the greater Wyoming region
             </p>
             
             <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-full mx-auto" />
@@ -128,17 +133,6 @@ export default function Home() {
                     )}
                   </h3>
                   
-                  {/* Description */}
-                  {/* <p className="relative z-10 text-slate-600 group-hover:text-slate-700 leading-relaxed transition-colors duration-300 mb-4">
-                    Professional bat removal & exclusion services
-                  </p> */}
-                  
-                  {/* Service indicator */}
-                  {/* <div className="relative z-10 flex items-center space-x-2 text-sm">
-                    <div className="w-2 h-2 bg-green-400 rounded-full group-hover:bg-amber-400 transition-colors duration-300" />
-                    <span className="text-slate-500 group-hover:text-slate-600 font-medium">Available 24/7</span>
-                  </div> */}
-                  
                   {/* Hover arrow */}
                   <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -173,7 +167,7 @@ export default function Home() {
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-slate-100/50 via-transparent to-blue-100/50" />
         <div className="absolute bottom-0 left-1/4 w-32 h-32 bg-gradient-to-br from-amber-100 to-yellow-100 rounded-full opacity-40 blur-3xl" />
-        <CTA city={mainCity} />
+        <CTA city={genericCityData} />
       </div>
     </main>
   )
