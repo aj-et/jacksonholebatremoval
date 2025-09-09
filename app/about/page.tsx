@@ -248,8 +248,8 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-800 mb-1">15+ Years of Local Experience</h4>
-                    <p className="text-slate-600 text-sm">Deep understanding of Wyoming&apos;s unique bat species and migration patterns</p>
+                    <h4 className="font-bold text-slate-800 mb-1">15+ Years of Professional Experience</h4>
+                    <p className="text-slate-600 text-sm">Extensive expertise in wildlife control now serving Wyoming&apos;s unique bat species</p>
                   </div>
                 </div>
                 
