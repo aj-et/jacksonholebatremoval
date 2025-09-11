@@ -352,6 +352,57 @@ export default function AboutPage() {
             </div>
           </div>
 
+          {/* Work Gallery Preview - Add this section before your final call-to-action */}
+          <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 opacity-10">
+              <div className="absolute top-10 left-10 w-32 h-32 border border-white/20 rounded-full" />
+              <div className="absolute bottom-20 right-16 w-24 h-24 border border-white/20 rounded-full" />
+              <div className="absolute top-1/2 right-1/4 w-16 h-16 border border-white/20 rounded-full" />
+            </div>
+            
+            <div className="relative z-10 text-center space-y-6">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-amber-400 to-yellow-500 rounded-2xl mb-4">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                See Our Work in Action
+              </h2>
+              
+              <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-8">
+                Browse our comprehensive gallery of successful bat removal and exclusion projects. 
+                From historic cabins to commercial buildings, see the quality and care we bring to every job.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Link
+                  href="/about/gallery"
+                  className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group"
+                >
+                  <svg className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012 2v2M7 7h10" />
+                  </svg>
+                  View Work Gallery
+                </Link>
+                
+                <div className="flex items-center space-x-4 text-white/80">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-amber-400">50+</div>
+                    <div className="text-sm">Projects</div>
+                  </div>
+                  <div className="w-px h-8 bg-white/30" />
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-amber-400">100+</div>
+                    <div className="text-sm">Photos</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+
           {/* Call to Action */}
           <div className="text-center bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-white/50">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">

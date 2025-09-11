@@ -1,0 +1,178 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Residential Attic Exclusion - Jackson",
+      "description": "Complete bat exclusion and attic restoration for a historic Jackson home. Sealed 12 entry points and installed one-way exclusion devices.",
+      "location": "Jackson, WY",
+      "date": "2024-08-15",
+      "category": "residential",
+      "images": [
+        {
+          "url": "/images/work/jackson-attic-before.webp",
+          "alt": "Attic before bat exclusion work",
+          "caption": "Heavy guano accumulation in attic space before cleanup"
+        },
+        {
+          "url": "/images/work/jackson-attic-exclusion.webp", 
+          "alt": "Exclusion devices installed",
+          "caption": "One-way exclusion tubes allowing bats to exit safely"
+        },
+        {
+          "url": "/images/work/jackson-attic-after.webp",
+          "alt": "Restored attic after completion",
+          "caption": "Complete attic restoration with new insulation"
+        }
+      ],
+      "services": ["Bat Exclusion", "Guano Cleanup", "Attic Restoration", "Insulation Replacement"],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Commercial Building Seal - Teton Village",
+      "description": "Large-scale exclusion work on a multi-story commercial building. Sealed roof line gaps and installed permanent barriers.",
+      "location": "Teton Village, WY",
+      "date": "2024-07-22",
+      "category": "commercial",
+      "images": [
+        {
+          "url": "/images/work/teton-commercial-roof.webp",
+          "alt": "Commercial roof bat entry points",
+          "caption": "Multiple entry points discovered along roof line"
+        },
+        {
+          "url": "/images/work/teton-commercial-sealing.webp",
+          "alt": "Professional sealing work in progress",
+          "caption": "Permanent exclusion barriers being installed"
+        }
+      ],
+      "services": ["Commercial Exclusion", "Roof Line Sealing", "Multi-Story Access"],
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Historic Cabin Restoration - Wilson",
+      "description": "Delicate exclusion work preserving the historic character of a 1920s log cabin while effectively preventing bat re-entry.",
+      "location": "Wilson, WY",
+      "date": "2024-06-10",
+      "category": "historic",
+      "images": [
+        {
+          "url": "/images/work/wilson-cabin-exterior.webp",
+          "alt": "Historic log cabin exterior",
+          "caption": "1920s log cabin requiring sensitive restoration approach"
+        },
+        {
+          "url": "/images/work/wilson-cabin-gaps.webp",
+          "alt": "Log gaps and entry points",
+          "caption": "Natural log settling created numerous entry points"
+        },
+        {
+          "url": "/images/work/wilson-cabin-sealed.webp",
+          "alt": "Historically appropriate sealing materials",
+          "caption": "Period-appropriate materials used for permanent exclusion"
+        }
+      ],
+      "services": ["Historic Preservation", "Custom Sealing", "Log Home Expertise"],
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Warehouse Exclusion - Alpine",
+      "description": "Industrial-scale bat exclusion from a large warehouse facility. Addressed multiple species and extensive roosting areas.",
+      "location": "Alpine, WY",
+      "date": "2024-05-18",
+      "category": "industrial",
+      "images": [
+        {
+          "url": "/images/work/alpine-warehouse-interior.webp",
+          "alt": "Warehouse interior with bat colonies",
+          "caption": "Large bat colony in warehouse rafters"
+        },
+        {
+          "url": "/images/work/alpine-warehouse-netting.webp",
+          "alt": "Exclusion netting installation",
+          "caption": "Specialized netting system for large industrial spaces"
+        }
+      ],
+      "services": ["Industrial Exclusion", "Large Colony Management", "Specialized Equipment"],
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Multi-Family Housing - Driggs",
+      "description": "Coordinated exclusion work across multiple connected residential units. Comprehensive approach ensuring no cross-contamination.",
+      "location": "Driggs, ID",
+      "date": "2024-09-03",
+      "category": "residential",
+      "images": [
+        {
+          "url": "/images/work/driggs-multifamily-units.webp",
+          "alt": "Connected residential units",
+          "caption": "Multi-unit residential complex requiring coordinated approach"
+        },
+        {
+          "url": "/images/work/driggs-multifamily-sealing.webp",
+          "alt": "Systematic sealing of shared walls",
+          "caption": "Sealing shared wall spaces to prevent movement between units"
+        },
+        {
+          "url": "/images/work/driggs-multifamily-complete.webp",
+          "alt": "Completed exclusion work",
+          "caption": "All units successfully excluded with warranty coverage"
+        }
+      ],
+      "services": ["Multi-Unit Coordination", "Shared Space Sealing", "Comprehensive Planning"],
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Emergency Exclusion - Moose",
+      "description": "Rapid-response exclusion work for a family dealing with bats in living spaces. Same-day service with complete resolution.",
+      "location": "Moose, WY",
+      "date": "2024-08-28",
+      "category": "emergency",
+      "images": [
+        {
+          "url": "/images/work/moose-emergency-living.webp",
+          "alt": "Bats in living space",
+          "caption": "Emergency situation with bats in main living areas"
+        },
+        {
+          "url": "/images/work/moose-emergency-exclusion.webp",
+          "alt": "Rapid exclusion work",
+          "caption": "Same-day exclusion devices installed for immediate relief"
+        }
+      ],
+      "services": ["Emergency Response", "Same-Day Service", "Living Space Cleanup"],
+      "featured": true
+    }
+  ],
+  "categories": [
+    {
+      "name": "residential",
+      "label": "Residential",
+      "description": "Single and multi-family home exclusion projects"
+    },
+    {
+      "name": "commercial",
+      "label": "Commercial", 
+      "description": "Business and commercial building exclusion work"
+    },
+    {
+      "name": "historic",
+      "label": "Historic Properties",
+      "description": "Preservation-focused exclusion for historic buildings"
+    },
+    {
+      "name": "industrial",
+      "label": "Industrial",
+      "description": "Large-scale industrial and warehouse exclusion projects"
+    },
+    {
+      "name": "emergency",
+      "label": "Emergency Response",
+      "description": "Rapid-response exclusion for urgent situations"
+    }
+  ]
+}
