@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { JSX, useState } from "react"
-import galleryData from "../../../const/gallery-data.json" // Adjust path as needed
+import galleryData from "@/const/gallery-data.json" // Adjust path as needed
 
 // Type definitions
 interface ProjectImage {
@@ -83,7 +83,7 @@ export default function WorkGalleryPage(): JSX.Element {
       {/* Hero Section */}
       <section className="relative h-64 md:h-80 flex items-center justify-center text-center overflow-hidden">
         <Image
-          src="/images/work-gallery-hero.webp"
+          src="/images/placeholder.webp"
           alt="Jackson Hole Bat Removal Work Gallery"
           fill
           className="absolute inset-0 w-full h-full object-cover"
@@ -374,8 +374,10 @@ export default function WorkGalleryPage(): JSX.Element {
                         <Image
                           src={image.url}
                           alt={image.alt}
+                          width={600}
+                          height={400}
                           fill
-                          className="object-cover"
+                          className="object-cover w-full h-full"
                         />
                       </div>
                       <p className="text-sm text-slate-600 italic">

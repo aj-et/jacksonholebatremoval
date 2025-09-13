@@ -2,150 +2,160 @@
   "projects": [
     {
       "id": 1,
-      "title": "Residential Attic Exclusion - Jackson",
-      "description": "Complete bat exclusion and attic restoration for a historic Jackson home. Sealed 12 entry points and installed one-way exclusion devices.",
-      "location": "Jackson, WY",
+      "title": "Historic University Building - Salt Lake City",
+      "description": "Multi-story rope access exclusion work on a historic brick university building. Sealed numerous entry points along roof lines and window areas while preserving architectural integrity.",
+      "location": "Salt Lake City, UT",
       "date": "2024-08-15",
-      "category": "residential",
+      "category": "commercial",
       "images": [
         {
-          "url": "/images/work/jackson-attic-before.webp",
-          "alt": "Attic before bat exclusion work",
-          "caption": "Heavy guano accumulation in attic space before cleanup"
+          "url": "/images/image000000.webp",
+          "alt": "Historic brick university building exterior work",
+          "caption": "Professional rope access work on multi-story historic building"
         },
         {
-          "url": "/images/work/jackson-attic-exclusion.webp", 
-          "alt": "Exclusion devices installed",
-          "caption": "One-way exclusion tubes allowing bats to exit safely"
+          "url": "/images/IMG_2342.webp",
+          "alt": "Technician sealing entry points on brick building",
+          "caption": "Detailed sealing work around window areas and brick gaps"
         },
         {
-          "url": "/images/work/jackson-attic-after.webp",
-          "alt": "Restored attic after completion",
-          "caption": "Complete attic restoration with new insulation"
+          "url": "/images/IMG_2345.webp",
+          "alt": "Roof access work on tile roof",
+          "caption": "Safe roof access techniques for comprehensive exclusion work"
+        },
+        {
+          "url": "/images/IMG_2347.webp",
+          "alt": "Tile roof exclusion work",
+          "caption": "Professional work on historic building tile roof system"
         }
       ],
-      "services": ["Bat Exclusion", "Guano Cleanup", "Attic Restoration", "Insulation Replacement"],
+      "services": ["Rope Access", "Historic Building Preservation", "Multi-Story Exclusion", "Brick Sealing"],
       "featured": true
     },
     {
       "id": 2,
-      "title": "Commercial Building Seal - Teton Village",
-      "description": "Large-scale exclusion work on a multi-story commercial building. Sealed roof line gaps and installed permanent barriers.",
-      "location": "Teton Village, WY",
+      "title": "Log Home with Metal Roof - Park City Area",
+      "description": "Comprehensive exclusion work on a beautiful log home with metal roofing. Addressed roof ridge and eave entry points while maintaining the rustic aesthetic.",
+      "location": "Park City, UT",
       "date": "2024-07-22",
-      "category": "commercial",
+      "category": "residential",
       "images": [
         {
-          "url": "/images/work/teton-commercial-roof.webp",
-          "alt": "Commercial roof bat entry points",
-          "caption": "Multiple entry points discovered along roof line"
+          "url": "/images/IMG_2529.webp",
+          "alt": "Metal roof ridge sealing work",
+          "caption": "Precision work on metal roof ridge and peak areas"
         },
         {
-          "url": "/images/work/teton-commercial-sealing.webp",
-          "alt": "Professional sealing work in progress",
-          "caption": "Permanent exclusion barriers being installed"
+          "url": "/images/IMG_2530.webp",
+          "alt": "Roof ridge exclusion techniques",
+          "caption": "Professional sealing techniques for metal roofing systems"
+        },
+        {
+          "url": "/images/IMG_2531.webp",
+          "alt": "Detailed ridge sealing work",
+          "caption": "Careful attention to roof ridge sealing details"
+        },
+        {
+          "url": "/images/IMG_3034.webp",
+          "alt": "Log home with green metal roof",
+          "caption": "Beautiful log home requiring specialized exclusion techniques"
         }
       ],
-      "services": ["Commercial Exclusion", "Roof Line Sealing", "Multi-Story Access"],
-      "featured": false
-    },
-    {
-      "id": 3,
-      "title": "Historic Cabin Restoration - Wilson",
-      "description": "Delicate exclusion work preserving the historic character of a 1920s log cabin while effectively preventing bat re-entry.",
-      "location": "Wilson, WY",
-      "date": "2024-06-10",
-      "category": "historic",
-      "images": [
-        {
-          "url": "/images/work/wilson-cabin-exterior.webp",
-          "alt": "Historic log cabin exterior",
-          "caption": "1920s log cabin requiring sensitive restoration approach"
-        },
-        {
-          "url": "/images/work/wilson-cabin-gaps.webp",
-          "alt": "Log gaps and entry points",
-          "caption": "Natural log settling created numerous entry points"
-        },
-        {
-          "url": "/images/work/wilson-cabin-sealed.webp",
-          "alt": "Historically appropriate sealing materials",
-          "caption": "Period-appropriate materials used for permanent exclusion"
-        }
-      ],
-      "services": ["Historic Preservation", "Custom Sealing", "Log Home Expertise"],
+      "services": ["Log Home Specialization", "Metal Roof Sealing", "Ridge Line Exclusion"],
       "featured": true
     },
     {
-      "id": 4,
-      "title": "Warehouse Exclusion - Alpine",
-      "description": "Industrial-scale bat exclusion from a large warehouse facility. Addressed multiple species and extensive roosting areas.",
-      "location": "Alpine, WY",
-      "date": "2024-05-18",
-      "category": "industrial",
+      "id": 3,
+      "title": "Modern Townhome Complex - Lehi",
+      "description": "Coordinated exclusion work across multiple connected townhome units. Systematic approach ensuring complete coverage of all potential entry points.",
+      "location": "Lehi, UT",
+      "date": "2024-06-10",
+      "category": "residential",
       "images": [
         {
-          "url": "/images/work/alpine-warehouse-interior.webp",
-          "alt": "Warehouse interior with bat colonies",
-          "caption": "Large bat colony in warehouse rafters"
+          "url": "/images/IMG_4864.webp",
+          "alt": "Modern townhome complex exterior",
+          "caption": "Modern townhome complex requiring systematic exclusion approach"
         },
         {
-          "url": "/images/work/alpine-warehouse-netting.webp",
-          "alt": "Exclusion netting installation",
-          "caption": "Specialized netting system for large industrial spaces"
+          "url": "/images/IMG_4866.webp",
+          "alt": "Roof line exclusion work on townhomes",
+          "caption": "Professional roof line sealing on modern construction"
+        },
+        {
+          "url": "/images/IMG_6405.webp",
+          "alt": "Eave and soffit sealing work",
+          "caption": "Detailed eave and soffit exclusion work from ground level"
         }
       ],
-      "services": ["Industrial Exclusion", "Large Colony Management", "Specialized Equipment"],
+      "services": ["Multi-Unit Coordination", "Modern Construction", "Eave Sealing"],
       "featured": false
     },
     {
+      "id": 4,
+      "title": "Commercial High-Rise - Downtown Salt Lake",
+      "description": "Challenging high-rise exclusion work using advanced rope access techniques. Sealed entry points on busy downtown commercial buildings.",
+      "location": "Salt Lake City, UT",
+      "date": "2024-05-18",
+      "category": "commercial",
+      "images": [
+        {
+          "url": "/images/IMG_3353.webp",
+          "alt": "High-rise rope access work",
+          "caption": "Advanced rope access techniques for high-rise exclusion work"
+        },
+        {
+          "url": "/images/IMG_8818.webp",
+          "alt": "Commercial building rappelling work",
+          "caption": "Professional rappelling work on modern commercial building"
+        }
+      ],
+      "services": ["High-Rise Access", "Commercial Exclusion", "Advanced Rope Techniques"],
+      "featured": true
+    },
+    {
       "id": 5,
-      "title": "Multi-Family Housing - Driggs",
-      "description": "Coordinated exclusion work across multiple connected residential units. Comprehensive approach ensuring no cross-contamination.",
-      "location": "Driggs, ID",
+      "title": "Mountain Log Home - Alpine",
+      "description": "Exclusion work on a rustic mountain log home with green metal roofing. Required specialized techniques for log construction and metal roof systems.",
+      "location": "Alpine, UT",
       "date": "2024-09-03",
       "category": "residential",
       "images": [
         {
-          "url": "/images/work/driggs-multifamily-units.webp",
-          "alt": "Connected residential units",
-          "caption": "Multi-unit residential complex requiring coordinated approach"
+          "url": "/images/IMG_3035.webp",
+          "alt": "Log home with mountain backdrop",
+          "caption": "Scenic mountain log home requiring specialized exclusion approach"
         },
         {
-          "url": "/images/work/driggs-multifamily-sealing.webp",
-          "alt": "Systematic sealing of shared walls",
-          "caption": "Sealing shared wall spaces to prevent movement between units"
-        },
-        {
-          "url": "/images/work/driggs-multifamily-complete.webp",
-          "alt": "Completed exclusion work",
-          "caption": "All units successfully excluded with warranty coverage"
+          "url": "/images/IMG_6575.webp",
+          "alt": "Interior log construction exclusion work",
+          "caption": "Interior exclusion work in exposed log beam construction"
         }
       ],
-      "services": ["Multi-Unit Coordination", "Shared Space Sealing", "Comprehensive Planning"],
+      "services": ["Mountain Home Expertise", "Log Construction", "Interior Exclusion Work"],
       "featured": false
     },
     {
       "id": 6,
-      "title": "Emergency Exclusion - Moose",
-      "description": "Rapid-response exclusion work for a family dealing with bats in living spaces. Same-day service with complete resolution.",
-      "location": "Moose, WY",
+      "title": "Historic Brick Building Complex",
+      "description": "Comprehensive exclusion work on a multi-story historic brick building complex with tile roofing and detailed architectural features.",
+      "location": "Salt Lake City, UT",
       "date": "2024-08-28",
-      "category": "emergency",
+      "category": "commercial",
       "images": [
         {
-          "url": "/images/work/moose-emergency-living.webp",
-          "alt": "Bats in living space",
-          "caption": "Emergency situation with bats in main living areas"
+          "url": "/images/IMG_2348.webp",
+          "alt": "Aerial view of tile roof work",
+          "caption": "Aerial perspective of comprehensive tile roof exclusion work"
         },
         {
-          "url": "/images/work/moose-emergency-exclusion.webp",
-          "alt": "Rapid exclusion work",
-          "caption": "Same-day exclusion devices installed for immediate relief"
+          "url": "/images/IMG_2532.webp",
+          "alt": "Final ridge sealing work",
+          "caption": "Completion of detailed roof ridge sealing project"
         }
       ],
-      "services": ["Emergency Response", "Same-Day Service", "Living Space Cleanup"],
-      "featured": true
+      "services": ["Historic Building Restoration", "Tile Roof Expertise", "Multi-Story Access"],
+      "featured": false
     }
   ],
   "categories": [
