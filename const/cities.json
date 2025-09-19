@@ -47,5 +47,68 @@
     "state": "Wyoming",
     "phone": "(801) 675-8829",
     "description": "Safe and effective bat removal services in Teton Village, Wyoming. Our team provides inspections, exclusions, and attic restoration."
+  },
+  {
+    "slug": "alta",
+    "name": "Alta",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Humane bat removal services in Alta, Wyoming. We provide safe exclusions, inspections, and guano cleanup for homes and cabins."
+  },
+  {
+    "slug": "hoback",
+    "name": "Hoback",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Professional bat removal and attic restoration in Hoback, Wyoming. Our experts keep your property safe and bat-free."
+  },
+  {
+    "slug": "south-park",
+    "name": "South Park",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Trusted bat control services in South Park, Wyoming. We specialize in humane exclusion and guano cleanup."
+  },
+  {
+    "slug": "rafter-j-ranch",
+    "name": "Rafter J Ranch",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Bat removal specialists serving Rafter J Ranch, Wyoming. We provide inspections, exclusions, and attic cleanup."
+  },
+  {
+    "slug": "teton-pines",
+    "name": "Teton Pines",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Safe bat exclusion and guano cleanup in Teton Pines, Wyoming. Our certified team restores and protects your property."
+  },
+  {
+    "slug": "driggs",
+    "name": "Driggs",
+    "state": "Idaho",
+    "phone": "(801) 675-8829",
+    "description": "Humane bat removal services in Driggs, Idaho. We provide expert exclusions, attic restoration, and guano cleanup."
+  },
+  {
+    "slug": "victor",
+    "name": "Victor",
+    "state": "Idaho",
+    "phone": "(801) 675-8829",
+    "description": "Effective bat control in Victor, Idaho. Our specialists provide safe exclusions, inspections, and cleanup services."
+  },
+  {
+    "slug": "swan-valley",
+    "name": "Swan Valley",
+    "state": "Idaho",
+    "phone": "(801) 675-8829",
+    "description": "Professional bat removal in Swan Valley, Idaho. We provide safe, humane exclusions and guano cleanup for residential and vacation homes."
+  },
+  {
+    "slug": "bondurant",
+    "name": "Bondurant",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Reliable bat removal services in Bondurant, Wyoming. Our team ensures safe exclusion and full attic restoration."
   }
 ]
