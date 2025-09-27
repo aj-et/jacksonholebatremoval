@@ -110,5 +110,47 @@
     "state": "Wyoming",
     "phone": "(801) 675-8829",
     "description": "Reliable bat removal services in Bondurant, Wyoming. Our team ensures safe exclusion and full attic restoration."
+  },
+  {
+    "slug": "alpine",
+    "name": "Alpine",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Professional bat removal services in Alpine, Wyoming. We provide humane exclusions, inspections, and guano cleanup to keep your property safe."
+  },
+  {
+    "slug": "tetonia",
+    "name": "Tetonia",
+    "state": "Idaho",
+    "phone": "(801) 675-8829",
+    "description": "Safe and effective bat removal in Tetonia, Idaho. Our experts specialize in humane bat control, attic restoration, and long-term prevention."
+  },
+  {
+    "slug": "afton",
+    "name": "Afton",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Reliable bat removal services in Afton, Wyoming. We provide expert inspections, exclusions, and full guano cleanup for homes and cabins."
+  },
+  {
+    "slug": "etna",
+    "name": "Etna",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Etna, Wyoming bat removal specialists. Our team provides humane exclusions, attic restoration, and guano cleanup for residential properties."
+  },
+  {
+    "slug": "freedom",
+    "name": "Freedom",
+    "state": "Wyoming",
+    "phone": "(801) 675-8829",
+    "description": "Trusted bat removal services in Freedom, Wyoming. We offer safe exclusions, professional inspections, and guano cleanup for your home."
+  },
+  {
+    "slug": "island-park",
+    "name": "Island Park",
+    "state": "Idaho",
+    "phone": "(801) 675-8829",
+    "description": "Expert bat removal services in Island Park, Idaho. We provide humane bat control, attic restoration, and long-term protection."
   }
 ]
